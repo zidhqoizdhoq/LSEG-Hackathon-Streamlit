@@ -15,12 +15,12 @@ import pandas as pd
 final_score = pd.read_csv('final_score.csv')
 df_1 = pd.read_csv('df_1')
 
-categories_2017 = pd.read_csv('categories 2017')
-categories_2018 = pd.read_csv('categories 2018')
-categories_2019 = pd.read_csv('categories 2019')
-categories_2020 = pd.read_csv('categories 2020')
-categories_2021 = pd.read_csv('categories 2021')
-categories_2022 = pd.read_csv('categories 2022')
+categories_2017 = pd.read_csv('categories_2017')
+categories_2018 = pd.read_csv('categories_2018')
+categories_2019 = pd.read_csv('categories_2019')
+categories_2020 = pd.read_csv('categories_2020')
+categories_2021 = pd.read_csv('categories_2021')
+categories_2022 = pd.read_csv('categories_2022')
 
 categories_2017 = pd.concat([df_1['Constituent Name'], categories_2017], axis=1)
 categories_2018 = pd.concat([df_1['Constituent Name'], categories_2018], axis=1)
