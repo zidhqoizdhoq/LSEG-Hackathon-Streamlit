@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 import streamlit as st
 import pandas as pd
 
-#GIT update
+#GIT update2
 
 final_score = pd.read_csv('final_score.csv')
 df_1 = pd.read_csv('df_1')
