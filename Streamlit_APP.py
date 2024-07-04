@@ -47,10 +47,15 @@ if page == "Homepage":
         "* This isn't just a regular financial data platform. We've collected various financial ratios and multiples, and applied innovative methods such as Singular Value Decomposition to determine the weight of each input. "
         "All of this is distilled into a simple, easy-to-understand score ranging from 0 to 100.")
     st.markdown("We want people to be able to read financial data with a click of a button")
-    st.markdown("In order to navigate trought this app, use the sidebar on the left to access the three different tabs : "
-                "- **Scores** : View all the scores and the breakdown of each category."
-                "- **Peers Overview** : Compare the scores of different companies side by side."
-                "- **Hitorical Trend** : Display the evolution of the final score for each selected company over the past five years against a benchmark.")
+
+    st.markdown("""
+    In order to navigate through this app, use the sidebar on the left to access the three different tabs:
+
+    - **Scores**: View all the scores and the breakdown of each category.
+    - **Peers Overview**: Compare the scores of different companies side by side.
+    - **Historical Trend**: Display the evolution of the final score for each selected company over the past five years against a benchmark.
+    """)
+
     st.markdown("**Note:** This app is a sample based solely on financial ratios and multiples. It does not consider other factors and is based only on data from 2017 to 2022. These scores are not live and should not be considered as such.")
 
 if page == "Scores":
